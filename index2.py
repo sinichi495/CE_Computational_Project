@@ -170,11 +170,11 @@ elif NumberOfSupports >= 2:
     EqConstant = np.array([[SumOfForces], [MomentOfForces]])
     
     #NewCoefficient = 0.0
-    print(EqConstant)
-    print(ForcesActing[0][0])
-    print(ForcesActing[1][0])
-    print(ForcesActing[2][0])
-    print(ForcesActing[3][0])
+    #print(EqConstant)
+    #print(ForcesActing[0][0])
+    #print(ForcesActing[1][0])
+    #print(ForcesActing[2][0])
+    #print(ForcesActing[3][0])
     for i in range(0, NumberOfSupports):
         NewCoefficient = 0
         var2 = 0  
